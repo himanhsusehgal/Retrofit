@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
 
     private static final String TAG = "MainActivity";
 
-    Api api = AppController.getInstance().api;
+    Api api = AppController.getInstance().getApi();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
